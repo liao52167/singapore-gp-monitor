@@ -2,7 +2,7 @@ name: Singapore GP ticket monitor
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "2-59/5 * * * *"
   workflow_dispatch:
 
 # The monitor commits its non-sensitive state file after a successful check so
@@ -36,7 +36,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
-          PLAYWRIGHT_BROWSERS_PATH="$PWD/.playwright-browsers" python -m playwright install --with-deps chromium
+          python -m playwright install --with-deps chromium
 
       - name: Check ticket availability
         run: xvfb-run -a python monitor.py --once
