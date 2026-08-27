@@ -1,8 +1,6 @@
 name: Singapore GP ticket monitor
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 # The monitor commits its non-sensitive state file after a successful check so
