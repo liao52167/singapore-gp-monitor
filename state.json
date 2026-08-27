@@ -5,14 +5,14 @@
       "available": false,
       "sun_class": "\n                                      badge-transparent\n                                      disabled\n                                    ",
       "card_text": "Stamford Grandstand 3-DAY FRI SAT SUN",
-      "checked_at": "2026-08-27T08:29:25+00:00"
+      "checked_at": "2026-08-27T13:12:05+00:00"
     },
     "Padang Grandstand": {
       "found": true,
       "available": false,
       "sun_class": "\n                                      badge-transparent\n                                      disabled\n                                    ",
       "card_text": "Padang Grandstand 3-DAY FRI SAT SUN",
-      "checked_at": "2026-08-27T08:29:25+00:00"
+      "checked_at": "2026-08-27T13:12:05+00:00"
     }
   }
 }
